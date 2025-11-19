@@ -14,14 +14,14 @@
 3. Python (Programming language)
 
 ## Defining Endpoints with their functionality
-1. ***Deposit***
+1. ## ***Deposit***
  Users allowed to  deposit funds after authentication.
 
-1. ***authentication***
+2. ## ***authentication***
  Through this endpoint users must authenticate with their name and Pin number.
  If user's information is incorrect Exception raised. 
 
-2. ## ***Bank transfer***
+3. ## ***Bank transfer***
 
  Any User can transfer the money to any account number.
 
@@ -33,8 +33,9 @@
 
 #### Endpoint	       Method	Description
 
-/authenticate	POST	Authenticates a user and returns a token
-/deposit	    POST	 Deposits an amount into user account
-/transfer	    POST	 Transfers money between accounts
-/balance	    GET	    Returns current balance for user
+/authenticate	POST	Authenticates a user and returns a token.<br>
+/deposit	    POST	 Deposits an amount into user account.<br>
+/transfer	    POST	 Transfers money between accounts.<br>
+/balance	    GET	    Returns current balance for user.<br>
+
 
