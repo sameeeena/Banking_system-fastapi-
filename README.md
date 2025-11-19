@@ -31,12 +31,13 @@
 
 ## Example Endpoint Summary
 
-### Endpoint	   |   ### Method	    | ### Description
-
+### Endpoint	   |    Method	    |  Description
+---             |    ---        |   ---
 /authenticate    |    [POST]        | Authenticates a user and returns a token.<br>
 /deposit	        |    [POST]	       |  Deposits an amount into user account.<br>
 /transfer	       |    [POST]	       | Transfers money between accounts.<br>
 /balance	        |   [GET]	        | Returns current balance for user.<br>
+
 
 
 
