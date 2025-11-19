@@ -25,18 +25,12 @@
 
  Any User can transfer the money to any account number.
 
-3. ## ***Balance***
+4. ## ***Balance***
 
  After the transaction, the balance of the sender and reciever will be showed.
 
-## Example Endpoint Summary
 
-### Endpoint	   |    Method	    |  Description
----             |    ---        |   ---
-/authenticate    |    [POST]        | Authenticates a user and returns a token.<br>
-/deposit	        |    [POST]	       |  Deposits an amount into user account.<br>
-/transfer	       |    [POST]	       | Transfers money between accounts.<br>
-/balance	        |   [GET]	        | Returns current balance for user.<br>
+
 
 
 
