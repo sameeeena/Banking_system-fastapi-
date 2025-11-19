@@ -15,25 +15,26 @@
 
 ## Defining Endpoints with their functionality
 1. ***Deposit***
-####### Users allowed to  deposit funds after authentication.
+ Users allowed to  deposit funds after authentication.
 
 1. ***authentication***
-####### Through this endpoint users must authenticate with their name and Pin number.
-####### if user's information is incorrect Exception raised. 
+ Through this endpoint users must authenticate with their name and Pin number.
+ If user's information is incorrect Exception raised. 
 
 2. ## ***Bank transfer***
 
-####### Any User can transfer the money to any account number.
+ Any User can transfer the money to any account number.
 
 3. ## ***Balance***
 
-####### After the transaction, the balance of the sender and reciever will be showed.
+ After the transaction, the balance of the sender and reciever will be showed.
 
 ## Example Endpoint Summary
 
 #### Endpoint	       Method	Description
 
-######## /authenticate	POST	Authenticates a user and returns a token
-######## /deposit	    POST	 Deposits an amount into user account
-######## /transfer	    POST	 Transfers money between accounts
-######## /balance	    GET	    Returns current balance for user
+/authenticate	POST	Authenticates a user and returns a token
+/deposit	    POST	 Deposits an amount into user account
+/transfer	    POST	 Transfers money between accounts
+/balance	    GET	    Returns current balance for user
+
